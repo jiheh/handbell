@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:src="@drawable/clapper"
         android:layout_centerInParent="true"
+        android:contentDescription="@string/clapper_image"
         android:id="@+id/clapper" />
 
     <TextView
@@ -19,4 +20,104 @@
         android:layout_centerInParent="true"
         android:id="@+id/velocity" />
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="14dp"
+        android:scrollbars="none"
+        android:theme="@android:style/Widget.Material.FastScroll"
+        tools:targetApi="lollipop">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/listOfPitches">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_c"
+                android:id="@+id/note_01_c" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_d"
+                android:id="@+id/note_02_d" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_e"
+                android:id="@+id/note_03_e" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_f"
+                android:id="@+id/note_04_f" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_g"
+                android:id="@+id/note_05_g" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_a"
+                android:id="@+id/note_06_a" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_b"
+                android:id="@+id/note_07_b" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_c"
+                android:id="@+id/note_08_c" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_d"
+                android:id="@+id/note_09_d" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_e"
+                android:id="@+id/note_10_e" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_f"
+                android:id="@+id/note_11_f" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#666666"
+                android:text="@string/note_g"
+                android:id="@+id/note_12_g" />
+        </LinearLayout>
+    </HorizontalScrollView>
 </RelativeLayout>
